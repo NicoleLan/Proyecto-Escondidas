@@ -116,4 +116,25 @@ public class empezarPartida : MonoBehaviourPun
             photonView.RPC("SiguienteBuscadorMaster", RpcTarget.All);
         }
     }
+    [PunRPC]
+    public void ReiniciarRonda()
+    {
+        // todos vuelven a la zona de juego
+        transform.position = new Vector3(Random.Range(-3, +3), 2, Random.Range(+78, +82));
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            // elegir siguiente buscador
+            busca++;
+            if (busca >= PhotonNetwork.PlayerList.Length)
+            {
+                busca = 0; // volver al primero si nos pasamos
+            }
+
+            jugadoresVivos = PhotonNetwork.PlayerList.Length;
+            empezado = 1;
+
+            photonView.RPC("SetBuscador", RpcTarget.All, busca);
+        }
+    }
 }
