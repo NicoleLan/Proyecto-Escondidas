@@ -16,7 +16,8 @@ public class PlayerVida : MonoBehaviour
         if (vida <= 0)
         {
             transform.position = new Vector3(Random.Range(-2,+2), 2.2f, 0);
-            partida.photonView.RPC("Muerte", RpcTarget.All);
+            partida.photonView.RPC("Muerte", RpcTarget.MasterClient);
+            vida = 1;
         }
     }
 }
