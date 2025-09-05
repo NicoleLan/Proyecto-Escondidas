@@ -127,7 +127,6 @@ public class empezarPartida : MonoBehaviourPun
         }
 
         // mover todos los jugadores a la posición inicial, etc.
-        CambiarPosicion();
     }
    
 }
