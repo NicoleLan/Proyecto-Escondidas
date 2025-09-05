@@ -8,7 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Madera Oscura
-    second: {fileID: 2100000, guid: 251b1e6a52473a44ab4191db3f6b9d18, type: 2}
+    second: {fileID: 2100000, guid: 43aee701a13020047bf1ed4e8e8dc921, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Madera-oscura
+    second: {fileID: 2800000, guid: 6d28d6d7d66bb324ba3c36dd54bbe529, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
