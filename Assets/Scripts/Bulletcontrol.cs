@@ -4,7 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class Bulletcontrol : MonoBehaviour
+public class Bulletcontrol : MonoBehaviourPun
 {
     Rigidbody bulletRb;
     public float power = 40f;
