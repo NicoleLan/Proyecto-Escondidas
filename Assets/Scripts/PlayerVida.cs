@@ -4,7 +4,7 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class PlayerVida : MonoBehaviour
+public class PlayerVida : MonoBehaviourPun
 {
     [SerializeField] private empezarPartida partida;
     public int vida = 1;
@@ -21,9 +21,9 @@ public class PlayerVida : MonoBehaviour
         {
             muerto = true;
             transform.position = new Vector3(Random.Range(-2,+2), 2.2f, 0);
-            partida.photonView.RPC("Muerte", RpcTarget.MasterClient);
+            PhotonView.Find(1).RPC("Muerte", RpcTarget.MasterClient);
             vida = 1;
-            StartCoroutine(RevivirCooldown());
+            
         }
     }
 

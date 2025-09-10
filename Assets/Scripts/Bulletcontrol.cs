@@ -11,7 +11,7 @@ public class Bulletcontrol : MonoBehaviourPun
     public float lifetime = 4f;
     private float time = 0f;
     public PlayerVida playervida;
-    bool hasHit = false;
+    
 
     void Start()
     {
@@ -34,9 +34,6 @@ public class Bulletcontrol : MonoBehaviourPun
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (!photonView.IsMine || hasHit) return;
-        hasHit = true;
-
         if (collision.gameObject.CompareTag("Player"))
         {
             PhotonView pv = collision.gameObject.GetComponent<PhotonView>();

@@ -22,45 +22,22 @@ public class empezarPartida : MonoBehaviourPun
     public Photon.Realtime.Player GetBuscador()
     {
         Photon.Realtime.Player[] jugadores = PhotonNetwork.PlayerList;
-        if (jugadores.Length > 0 && busca < jugadores.Length)
+        if (jugadores.Length > 0 && busca < jugadores.Length && busca >= 0)
         {
             return jugadores[busca];
         }
         return null;
     }
 
-    [PunRPC]
-    public void SiguienteBuscador()
-    {
-        busca++;
-        if (busca >= PhotonNetwork.PlayerList.Length)
-        {
-            busca = -1;
-            photonView.RPC("CambiarPosicion2", RpcTarget.All);
-            empezado = 0;
-
-        }
-        photonView.RPC("SetBuscador", RpcTarget.All, busca);
-    }
-
-    // Update is called once per frame
     void Update()
     {
        
         empezar = Input.GetKeyDown(KeyCode.Period);
-        cambiar = Input.GetKeyDown(KeyCode.Space);
 
         if (empezar && PhotonNetwork.IsMasterClient && empezado == 0)
         {
             IniciarRonda();          
         }
-
-        /*if (cambiar && PhotonNetwork.IsMasterClient && empezado == 1)
-        {
-            Debug.Log("Master presionó 'Space' para siguiente buscador");
-            SiguienteBuscadorMaster();
-        }*/
-
     }
 
     [PunRPC]
@@ -74,7 +51,7 @@ public class empezarPartida : MonoBehaviourPun
             empezado = 0;
         }
         photonView.RPC("SetBuscador", RpcTarget.All, busca);
-        photonView.RPC("CambiarPosicion", RpcTarget.All, busca);
+        photonView.RPC("CambiarPosicion", RpcTarget.All);
     }
 
     [PunRPC]
