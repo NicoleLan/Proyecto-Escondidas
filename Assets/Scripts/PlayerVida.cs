@@ -26,10 +26,4 @@ public class PlayerVida : MonoBehaviourPun
             
         }
     }
-
-    System.Collections.IEnumerator RevivirCooldown()
-    {
-        yield return new WaitForSeconds(1.0f);
-        muerto = false;
-    }
 }

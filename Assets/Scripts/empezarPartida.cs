@@ -7,16 +7,17 @@ using Photon.Realtime;
 public class empezarPartida : MonoBehaviourPun
 {
     public bool empezar;
-    public bool cambiar;
     private int empezado;
     private Photon.Realtime.Player[] jugadores;
     private int busca = -1;
+    int ran;
     private int jugadoresVivos;
 
     // Start is called before the first frame update
     void Start()
     {
         empezado = 0;
+        ran = Random.Range(0, jugadores.Length - 1);
     }
 
     public Photon.Realtime.Player GetBuscador()
@@ -41,23 +42,18 @@ public class empezarPartida : MonoBehaviourPun
     }
 
     [PunRPC]
-    private void SiguienteBuscadorMaster()
-    {
-        busca++;
-        if (busca >= PhotonNetwork.PlayerList.Length -1)
-        {
-            busca = -1; 
-            photonView.RPC("CambiarPosicion2", RpcTarget.All);
-            empezado = 0;
-        }
-        photonView.RPC("SetBuscador", RpcTarget.All, busca);
-        photonView.RPC("CambiarPosicion", RpcTarget.All);
+    private void terminaRonda()
+    {       
+        busca = -1; 
+        photonView.RPC("CambiarPosicion2", RpcTarget.All);
+        empezado = 0;    
+        photonView.RPC("SetBuscador", RpcTarget.All, busca);      
     }
 
     [PunRPC]
     public void CambiarPosicion()
     {
-       transform.position = new Vector3(Random.Range(-3, +3), 2, Random.Range(+78, +82));    
+       transform.position = new Vector3(Random.Range(-70, +70), 3, Random.Range(+78, +200));    
     }
 
     [PunRPC]
@@ -86,7 +82,7 @@ public class empezarPartida : MonoBehaviourPun
 
         if (jugadoresVivos  <= 1 && PhotonNetwork.IsMasterClient)
         {
-            photonView.RPC("SiguienteBuscadorMaster", RpcTarget.All);
+            photonView.RPC("terminaRonda", RpcTarget.All);
         }
     }
 
@@ -98,7 +94,7 @@ public class empezarPartida : MonoBehaviourPun
             jugadoresVivos = PhotonNetwork.PlayerList.Length;
             photonView.RPC("CambiarPosicion", RpcTarget.All);
             empezado = 1;
-            busca++;
+            busca= ran;
             Photon.Realtime.Player[] jugadores = PhotonNetwork.PlayerList;
             photonView.RPC("SetBuscador", RpcTarget.All, busca);
         }
