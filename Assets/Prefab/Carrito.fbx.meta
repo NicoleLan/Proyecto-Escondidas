@@ -18,32 +18,32 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Marron
-    second: {fileID: 2100000, guid: bd8c3ba7ae119b24ca13c717782adc07, type: 2}
+    second: {fileID: 2100000, guid: a06776cf1f04aa542b577114e19d6040, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Marron.001
-    second: {fileID: 2100000, guid: 22fec9a3a87ac65498da728a2bd714b8, type: 2}
+    second: {fileID: 2100000, guid: a06776cf1f04aa542b577114e19d6040, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Marron.002
-    second: {fileID: 2100000, guid: 397738e69105c5941bdd492bceddf253, type: 2}
+    second: {fileID: 2100000, guid: a06776cf1f04aa542b577114e19d6040, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Marron.003
-    second: {fileID: 2100000, guid: eaac3ea27d27203419b6ae7ce27f3bec, type: 2}
+    second: {fileID: 2100000, guid: a06776cf1f04aa542b577114e19d6040, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Negro
-    second: {fileID: 2100000, guid: a7340d39c75e265449d92cf4c4530fd2, type: 2}
+    second: {fileID: 2100000, guid: 719f0ad0b5e6cbc48b75269bf9796369, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rojo
-    second: {fileID: 2100000, guid: b1bca53f347c49b408b35f34e4fa637b, type: 2}
+    second: {fileID: 2100000, guid: 03a0ab0375fd006459a1aa2ef20f17eb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
