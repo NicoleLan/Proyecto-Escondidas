@@ -21,7 +21,7 @@ public class PlayerVida : MonoBehaviourPun
         {
             muerto = true;
             transform.position = new Vector3(Random.Range(-2,+2), 2.2f, 0);
-            PhotonView.Find(1).RPC("Muerte", RpcTarget.MasterClient);
+            partida.photonView.RPC("Muerte", RpcTarget.MasterClient);
             vida = 1;
             
         }

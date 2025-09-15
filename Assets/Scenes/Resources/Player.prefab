@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8de38d3a71987cc4c96e1747618e72c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partida: {fileID: 0}
+  partida: {fileID: -8783483481701107183}
   vida: 1
 --- !u!114 &-994003130336602102
 MonoBehaviour:
