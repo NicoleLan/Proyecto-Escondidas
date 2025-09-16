@@ -33,7 +33,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: palette2-gradient
-    second: {fileID: 2800000, guid: 7aa5d3ffbec751c4f8c5195af704e4f8, type: 3}
+    second: {fileID: 2800000, guid: 6e917c4fa0f6b114598b6e7d8ef9f7c1, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
