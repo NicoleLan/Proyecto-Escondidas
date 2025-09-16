@@ -7,13 +7,53 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: cedef683c94cad040adb3adafe33d36f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 0016819c5360fa648a66cc60e6f91287, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Normal
     second: {fileID: 2100000, guid: 9da7af7339fb0d646be2184858a7e79c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rojo
-    second: {fileID: 2100000, guid: 03a0ab0375fd006459a1aa2ef20f17eb, type: 2}
+    second: {fileID: 2100000, guid: b1bca53f347c49b408b35f34e4fa637b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ladrillos_
+    second: {fileID: 2100000, guid: 3531a0bae2bb9b34daae807a71245ee3, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: castle_brick_07_diff_4k
+    second: {fileID: 2800000, guid: df588d94e6057ce4cb149bf52b254eca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: castle_brick_07_nor_gl_4k
+    second: {fileID: 2800000, guid: 00a4bd5b95fdd0d4191503ad42e01830, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cortina
+    second: {fileID: 2800000, guid: 375840cf0b40ec944a90c644a918c1bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: grey_plaster_02_diff_4k
+    second: {fileID: 2800000, guid: 7b433c9e1667a0341b2b46aeeaf4da32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: grey_plaster_02_nor_gl_4k
+    second: {fileID: 2800000, guid: ad3be1836e1c3ec4db249aaa2f683ed9, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
