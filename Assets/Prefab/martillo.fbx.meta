@@ -3,7 +3,22 @@ guid: d0a00f6a083252343b68aad2e4dd16ce
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: f1e81813828c95b4ca7ff80f2ecfbc2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 20ba9083174be2c4aa16b62db4c84cfb, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: palette2-gradient
+    second: {fileID: 2800000, guid: 16085c14b03d6dc478954128cf229fd7, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
