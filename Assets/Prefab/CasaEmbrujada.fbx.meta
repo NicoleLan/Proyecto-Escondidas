@@ -14,6 +14,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.003
     second: {fileID: 2100000, guid: 93c8bc0cf92bcf948be704d2605b1974, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Madera-oscura
+    second: {fileID: 2800000, guid: 993657166aefec74a88f8b479419405a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rabdentse_ruins_wall_diff_4k
+    second: {fileID: 2800000, guid: 8564a12004715f548bdff718d90d8abd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: rabdentse_ruins_wall_nor_gl_4k
+    second: {fileID: 2800000, guid: f62485a034fce384987a53572bcab399, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
