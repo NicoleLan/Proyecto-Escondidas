@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d595e79787caac94ba50b8ec7b6d628a
+guid: 04490668ec2d06c4090887f1c4f0ef2c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,12 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 43aee701a13020047bf1ed4e8e8dc921, type: 2}
+    second: {fileID: 2100000, guid: 9e7fe476c63dc0a428d81c0c4fe21446, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: madera
-    second: {fileID: 2800000, guid: dce96a446eacb2846bc8bec7688404f2, type: 3}
+      name: MaderaBancos
+    second: {fileID: 2800000, guid: 8f98a96d8d0905a40b88aff35fcbfa4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MaderaBancos NormalMap
+    second: {fileID: 2800000, guid: 9a010b06cf31bd1408216536fb9f01e9, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
