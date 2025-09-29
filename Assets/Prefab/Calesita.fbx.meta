@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Blanco
+    second: {fileID: 2100000, guid: f91991d9344be3e4a8b48b59fc1527d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material
     second: {fileID: 2100000, guid: 90623549d4482f042ade35d8a0758e35, type: 2}
   - first:
@@ -49,6 +54,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.010
     second: {fileID: 2100000, guid: cdae885e5cad8cf46b1ebb68dee12f91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo
+    second: {fileID: 2100000, guid: 86ac4fdc11e6ba148b70f6b9876f4ad9, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
