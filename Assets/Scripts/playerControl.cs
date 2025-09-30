@@ -31,4 +31,9 @@ public class playerControl : MonoBehaviourPun
             buscadoSkin.SetActive(true);
         }
     }
+
+    public void Update()
+    {
+        ActualizarSkin();
+    }
 }
