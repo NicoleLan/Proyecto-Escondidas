@@ -99,7 +99,7 @@ public class empezarPartida : MonoBehaviourPun
             photonView.RPC("SetBuscador", RpcTarget.All, busca);
         }
 
-        // mover todos los jugadores a la posición inicial, etc.
+       
     }
    
 }
