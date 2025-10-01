@@ -40,11 +40,11 @@ public class Bulletcontrol : MonoBehaviourPun
 
             if (pv != null)
             {
-                // Enviamos el RPC a todos los clientes para restar vida
+                
                 pv.RPC("RecibirDano", RpcTarget.All, 1);
             }
 
-            // Destruir la bala en todos los clientes
+          
             PhotonNetwork.Destroy(gameObject);
         }
         else{

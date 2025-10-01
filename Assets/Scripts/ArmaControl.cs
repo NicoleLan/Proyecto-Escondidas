@@ -28,7 +28,6 @@ public class ArmaControl : MonoBehaviourPunCallbacks
 
         if (PhotonNetwork.LocalPlayer == buscador)
         {
-            // Este cliente es el buscador
             PuedeDisparar = true;
             weapon.localScale = new Vector3(0.18519f, 0.2274863f, 1f);
         }
