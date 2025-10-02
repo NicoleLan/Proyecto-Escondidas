@@ -8,7 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Blanco
-    second: {fileID: 2100000, guid: f91991d9344be3e4a8b48b59fc1527d3, type: 2}
+    second: {fileID: 2100000, guid: cb68f85e10eeef14c886e3e1c58ee3c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luces
+    second: {fileID: 2100000, guid: 508fe930099d3404b9f16497bb4f7da0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -17,53 +22,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.001
-    second: {fileID: 2100000, guid: 513fd9b5db22f8a4288bb66c35d6928d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: baab065dede834c4bb3a25db07389d29, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 509feb5666f2223419461a172486206b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.005
-    second: {fileID: 2100000, guid: ebbdf476f0cf3454bb02e651b12cd540, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.007
-    second: {fileID: 2100000, guid: 9cda177244da8584fb02aaa5b29db6e5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.008
-    second: {fileID: 2100000, guid: c0c27472e6f4cb04c835c2a81af9ca8d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.009
-    second: {fileID: 2100000, guid: 0c581d05a20559948ad7a5502a78a78d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.010
-    second: {fileID: 2100000, guid: cdae885e5cad8cf46b1ebb68dee12f91, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: Rojo
-    second: {fileID: 2100000, guid: 86ac4fdc11e6ba148b70f6b9876f4ad9, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: palette2-gradient
-    second: {fileID: 2800000, guid: bb32bb59b14e5514fa57bbdb136a0038, type: 3}
+    second: {fileID: 2100000, guid: 426d7f7a904be9a459dbb493f118da67, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

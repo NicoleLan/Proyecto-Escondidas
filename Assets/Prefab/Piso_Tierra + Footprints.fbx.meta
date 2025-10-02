@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Tierra
-    second: {fileID: 2100000, guid: 13d186d331ff5a04494b6b5634460a04, type: 2}
+    second: {fileID: 2100000, guid: 4b39f540196fe334a8daa7a75765ad26, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: coast_sand_rocks_02_diff_4k
-    second: {fileID: 2800000, guid: 0a5bb282933ec3a4b888b724149313a9, type: 3}
+    second: {fileID: 2800000, guid: 2f7052b73635ba74ab043f7bb6ff2a0f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: coast_sand_rocks_02_nor_gl_4k
-    second: {fileID: 2800000, guid: 794d8ca2069cc08419dfe8e8e153bb1d, type: 3}
+    second: {fileID: 2800000, guid: 2f8c0ce56d5db54469ec419610209e11, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

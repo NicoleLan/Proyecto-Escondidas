@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: oxido
-    second: {fileID: 2100000, guid: 7235e04facd78c843858146081c742b3, type: 2}
+    second: {fileID: 2100000, guid: a702baf2394378942a9383ef64d2ca15, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rusty_metal_05_diff_4k
-    second: {fileID: 2800000, guid: aeae4c63f5757fd42810a27d18140548, type: 3}
+    second: {fileID: 2800000, guid: 08636dd0bdff4f5479dd1ecd42c7506a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rusty_metal_05_nor_gl_4k
-    second: {fileID: 2800000, guid: 4458c93343e94a0488a9b7bea7e61455, type: 3}
+    second: {fileID: 2800000, guid: 9a1ccca1653a18e4ea0315b5fa6381e0, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

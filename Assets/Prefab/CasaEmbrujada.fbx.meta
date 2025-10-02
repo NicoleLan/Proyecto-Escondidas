@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Madera
+    second: {fileID: 2100000, guid: 9bab29ab6e1b67646adee18fcedfb19a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material
     second: {fileID: 2100000, guid: 6ee008f01c3f76b40a087de4959f561e, type: 2}
   - first:
@@ -15,20 +20,30 @@ ModelImporter:
       name: Material.003
     second: {fileID: 2100000, guid: 93c8bc0cf92bcf948be704d2605b1974, type: 2}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paredes
+    second: {fileID: 2100000, guid: 5ff2a457dc755c64e97a96ab321fd4df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ventanas
+    second: {fileID: 2100000, guid: 8c1ec2f47b908ed4da2de01b6fd59642, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Madera-oscura
-    second: {fileID: 2800000, guid: 993657166aefec74a88f8b479419405a, type: 3}
+    second: {fileID: 2800000, guid: 6eb385c6bd8163142937bacceab156b4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rabdentse_ruins_wall_diff_4k
-    second: {fileID: 2800000, guid: 8564a12004715f548bdff718d90d8abd, type: 3}
+    second: {fileID: 2800000, guid: b781b8836f449664d84013e3e4253d03, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rabdentse_ruins_wall_nor_gl_4k
-    second: {fileID: 2800000, guid: f62485a034fce384987a53572bcab399, type: 3}
+    second: {fileID: 2800000, guid: 0cce2ba828874474fb8b9cd62fe9f06e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

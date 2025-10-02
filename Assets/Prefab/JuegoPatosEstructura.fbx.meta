@@ -3,7 +3,52 @@ guid: 2415b3c74e0d1b44b9e1d2a52d4ab1ec
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlancoTela
+    second: {fileID: 2100000, guid: cb68f85e10eeef14c886e3e1c58ee3c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bowl
+    second: {fileID: 2100000, guid: af3bbeb658b60b7479e15ea0efc1134f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera mesa
+    second: {fileID: 2100000, guid: 03ad4fc0fd84eac4ab66031dd1bc3faa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 91328421fd6f28847bfe8d18fd498537, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TelaRoja
+    second: {fileID: 2100000, guid: 426d7f7a904be9a459dbb493f118da67, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tela roja
+    second: {fileID: 2800000, guid: 1939b03bf9569404ab432f9ca73412f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tela roja Normal Map
+    second: {fileID: 2800000, guid: d080147f619062f48b5bc1c7ebb7ed44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tela2
+    second: {fileID: 2800000, guid: d73f53f70d7cbbe408824b3eb0b9dbae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: palette2-gradient
+    second: {fileID: 2800000, guid: 6875317fbad08804b8d4f143abe3620a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

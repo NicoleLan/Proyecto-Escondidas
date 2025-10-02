@@ -8,52 +8,52 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Interior
-    second: {fileID: 2100000, guid: cedef683c94cad040adb3adafe33d36f, type: 2}
+    second: {fileID: 2100000, guid: 6b850d5fbf4b34d49a48d03e266835fe, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 0016819c5360fa648a66cc60e6f91287, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Normal
-    second: {fileID: 2100000, guid: 9da7af7339fb0d646be2184858a7e79c, type: 2}
+    second: {fileID: 2100000, guid: 9ba3286a7aa1f5c4e95af9d36bd26467, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rojo
-    second: {fileID: 2100000, guid: b1bca53f347c49b408b35f34e4fa637b, type: 2}
+    second: {fileID: 2100000, guid: 4edcf28054f80264593cd35db462a0a1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ladrillos_
-    second: {fileID: 2100000, guid: 3531a0bae2bb9b34daae807a71245ee3, type: 2}
+    second: {fileID: 2100000, guid: 45d8575e268c8094cad8f7417dc38c2c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cartel
+    second: {fileID: 2800000, guid: 107bbd4d5107c3244be787ca2700a3ec, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: castle_brick_07_diff_4k
-    second: {fileID: 2800000, guid: df588d94e6057ce4cb149bf52b254eca, type: 3}
+    second: {fileID: 2800000, guid: 15eceddf6258cb64084178b8a4f4fe32, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: castle_brick_07_nor_gl_4k
-    second: {fileID: 2800000, guid: 00a4bd5b95fdd0d4191503ad42e01830, type: 3}
+    second: {fileID: 2800000, guid: ace16b2e0effe86469bd188bcb312bd9, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: cortina
-    second: {fileID: 2800000, guid: 375840cf0b40ec944a90c644a918c1bb, type: 3}
+    second: {fileID: 2800000, guid: a098776251fdd824999a29d653ca6094, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: grey_plaster_02_diff_4k
-    second: {fileID: 2800000, guid: 7b433c9e1667a0341b2b46aeeaf4da32, type: 3}
+    second: {fileID: 2800000, guid: 63424696e3489b349b7b34ccc64f985d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: grey_plaster_02_nor_gl_4k
-    second: {fileID: 2800000, guid: ad3be1836e1c3ec4db249aaa2f683ed9, type: 3}
+    second: {fileID: 2800000, guid: e47b66a4d5e62464b9fff395185e0ac4, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

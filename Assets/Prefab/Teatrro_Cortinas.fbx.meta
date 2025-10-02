@@ -8,12 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cortina
-    second: {fileID: 2100000, guid: a6815a921be4a7843bc38c721cd5e561, type: 2}
+    second: {fileID: 2100000, guid: 91ff81aab0314dc41870a6a53a9c4802, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cortinas
-    second: {fileID: 2800000, guid: a4fbf0573ec1e5a469ecb15644aeeaf2, type: 3}
+    second: {fileID: 2800000, guid: b58c1874db4d2bd45a0f6d30c05f7297, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cortinas Normal Map
+    second: {fileID: 2800000, guid: e1425987cd120d94ea5a5f44fc7c13d0, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
