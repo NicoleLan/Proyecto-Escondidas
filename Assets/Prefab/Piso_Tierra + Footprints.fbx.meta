@@ -7,13 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Gris
+    second: {fileID: 2100000, guid: 8029dccdfc62b8d498e918dff2dae7d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ladrillo
+    second: {fileID: 2100000, guid: 2430bfc7ce3147744a6747351b3b418a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Tierra
     second: {fileID: 2100000, guid: 4b39f540196fe334a8daa7a75765ad26, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: coast_sand_rocks_02_diff_4k
-    second: {fileID: 2800000, guid: 2f7052b73635ba74ab043f7bb6ff2a0f, type: 3}
+    second: {fileID: 2800000, guid: d73911cc1a1d98941af5e178169af4c4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule

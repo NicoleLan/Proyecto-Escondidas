@@ -13,12 +13,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 6ee008f01c3f76b40a087de4959f561e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.003
-    second: {fileID: 2100000, guid: 93c8bc0cf92bcf948be704d2605b1974, type: 2}
+    second: {fileID: 2100000, guid: 73d0e6e4573030e4a9d55c1dff1956a1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -33,17 +28,22 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Madera-oscura
-    second: {fileID: 2800000, guid: 6eb385c6bd8163142937bacceab156b4, type: 3}
+    second: {fileID: 2800000, guid: 1cf75a7303a3a0b46a7a4e043117e8e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PapelSalido2
+    second: {fileID: 2800000, guid: 3d945ac2590521f44a85634a417746f4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rabdentse_ruins_wall_diff_4k
-    second: {fileID: 2800000, guid: b781b8836f449664d84013e3e4253d03, type: 3}
+    second: {fileID: 2800000, guid: fd0349f11582f1b4fb5b8161913e228a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: rabdentse_ruins_wall_nor_gl_4k
-    second: {fileID: 2800000, guid: 0cce2ba828874474fb8b9cd62fe9f06e, type: 3}
+    second: {fileID: 2800000, guid: bada597f7435b584d9594414f4611f0b, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
