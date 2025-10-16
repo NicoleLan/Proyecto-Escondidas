@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 367cfb59607f7c94196590af9ed754fb
+guid: 2801081605b1f1c4e9f164fd5e4bb9b2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Blanco
-    second: {fileID: 2100000, guid: b0529c67f07697d4a96f9dd9a9c7171d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Luces
-    second: {fileID: 2100000, guid: b7a981ba737ec2844b10624a77cedb3e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Rojo
-    second: {fileID: 2100000, guid: 426d7f7a904be9a459dbb493f118da67, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Blanco Base Color
-    second: {fileID: 2800000, guid: 024d3e4acb36da149813a11a7112a677, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Rojo Base Color
-    second: {fileID: 2800000, guid: ad912ffe781766e4090b3407ba5572a4, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
