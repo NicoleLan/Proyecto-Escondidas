@@ -6,10 +6,11 @@ using Photon.Pun;
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviourPunCallbacks
 {
-    public float speed = 5f;
+    public float speed = 10f;
     public float mouseSensitivity = 2f;
     public float jumpHeight = 1.5f;
     public float gravity = -9.81f;
+    bool corriendo;
 
     private CharacterController controller;
     private Transform camTransform;
@@ -20,6 +21,7 @@ public class Player : MonoBehaviourPunCallbacks
     {
         controller = GetComponent<CharacterController>();
         camTransform = GetComponentInChildren<Camera>().transform;
+        
 
         if (!photonView.IsMine)
         {
@@ -37,8 +39,13 @@ public class Player : MonoBehaviourPunCallbacks
 
     void Update()
     {
+        corriendo = Input.GetKey(KeyCode.LeftShift);
         if (!photonView.IsMine) return;
-
+        if(corriendo){
+            speed = 35f;
+        }else{
+            speed= 15f;
+        }
         LookAround();
         Move();
     }
