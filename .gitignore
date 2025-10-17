@@ -97,3 +97,5 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground001_N.png
+Assets/ALP_Assets/Realistic Terrain Textures Lite/Textures/Ground001.tif
