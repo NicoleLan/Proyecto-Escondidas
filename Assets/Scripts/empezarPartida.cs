@@ -59,7 +59,7 @@ public class empezarPartida : MonoBehaviourPun
     [PunRPC]
     public void CambiarPosicion2()
     {
-        transform.position = new Vector3(Random.Range(-2, +2), 3, 0);
+        transform.position = new Vector3(Random.Range(+60, +70), 3, -400);
     }
 
     [PunRPC]
@@ -103,3 +103,4 @@ public class empezarPartida : MonoBehaviourPun
     }
    
 }
+// 77 -400
