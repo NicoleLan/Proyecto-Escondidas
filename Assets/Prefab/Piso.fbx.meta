@@ -3,7 +3,17 @@ guid: 2c51044016c537f4e874dbd83e898c15
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gris
+    second: {fileID: 2100000, guid: f9293063ac64c474fb7b41e948349da4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tierra
+    second: {fileID: 2100000, guid: 390d6db216815e549abf435422d2bb79, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

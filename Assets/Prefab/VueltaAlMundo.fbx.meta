@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Amarillo
-    second: {fileID: 2100000, guid: 25ab61d3cd6f70441b52f47af9c5a6d7, type: 2}
+    second: {fileID: 2100000, guid: b7a981ba737ec2844b10624a77cedb3e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

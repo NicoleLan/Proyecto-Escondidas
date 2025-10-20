@@ -7,8 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Exterior
+    second: {fileID: 2100000, guid: 45d8575e268c8094cad8f7417dc38c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Interior
     second: {fileID: 2100000, guid: 6b850d5fbf4b34d49a48d03e266835fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madera
+    second: {fileID: 2100000, guid: 245ab763d3f1192438df703de8662d47, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

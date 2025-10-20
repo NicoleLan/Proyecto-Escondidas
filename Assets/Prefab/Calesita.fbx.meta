@@ -8,22 +8,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Blanco
-    second: {fileID: 2100000, guid: cb68f85e10eeef14c886e3e1c58ee3c1, type: 2}
+    second: {fileID: 2100000, guid: b0529c67f07697d4a96f9dd9a9c7171d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Luces
-    second: {fileID: 2100000, guid: 508fe930099d3404b9f16497bb4f7da0, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 90623549d4482f042ade35d8a0758e35, type: 2}
+    second: {fileID: 2100000, guid: b7a981ba737ec2844b10624a77cedb3e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rojo
     second: {fileID: 2100000, guid: 426d7f7a904be9a459dbb493f118da67, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Blanco Base Color
+    second: {fileID: 2800000, guid: 024d3e4acb36da149813a11a7112a677, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rojo Base Color
+    second: {fileID: 2800000, guid: ad912ffe781766e4090b3407ba5572a4, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
