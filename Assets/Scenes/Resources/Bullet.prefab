@@ -216,8 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d07a2c98088362b4aaf8feb5305e72c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  power: 40
-  lifetime: 4
+  power: 100
+  lifetime: 2
   playervida: {fileID: -7318490280894087174, guid: 81ff8f2499fb8ca41ae07b8f48e0c3de, type: 3}
 --- !u!114 &6696226753054036848
 MonoBehaviour:
