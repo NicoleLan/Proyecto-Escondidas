@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: b7a981ba737ec2844b10624a77cedb3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: oxido
     second: {fileID: 2100000, guid: a702baf2394378942a9383ef64d2ca15, type: 2}
   - first:
