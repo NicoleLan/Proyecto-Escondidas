@@ -17,6 +17,12 @@ public class Player : MonoBehaviourPunCallbacks
     private float verticalVelocity;
     private float xRotation = 0f;
 
+    [Header("Head Bobbing")]
+    public float bobSpeed = 8f;       // Qué tan rápido se mueve la cámara
+    public float bobAmount = 0.2f;    // Qué tanto se mueve la cámara hacia arriba/abajo
+    private float defaultYPos;
+    private float timer = 0f;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -42,12 +48,15 @@ public class Player : MonoBehaviourPunCallbacks
         corriendo = Input.GetKey(KeyCode.LeftShift);
         if (!photonView.IsMine) return;
         if(corriendo){
-            speed = 35f;
+            speed = 45f;
+            bobSpeed = 12f;
         }else{
-            speed= 15f;
+            speed= 20f;
+            bobSpeed = 8f;
         }
         LookAround();
         Move();
+        HeadBob();
     }
 
     void LookAround()
@@ -86,5 +95,30 @@ public class Player : MonoBehaviourPunCallbacks
         move.y = verticalVelocity;
 
         controller.Move(move * Time.deltaTime);
+    }
+    void HeadBob()
+    {
+        // Si el jugador se está moviendo y está en el suelo
+        if (controller.isGrounded && controller.velocity.magnitude > 0.1f)
+        {
+            timer += Time.deltaTime * bobSpeed;
+            float newY = defaultYPos + Mathf.Sin(timer) * bobAmount;
+            camTransform.localPosition = new Vector3(
+                camTransform.localPosition.x,
+                newY,
+                camTransform.localPosition.z
+            );
+        }
+        else
+        {
+            // Suavemente vuelve a la posición original cuando se detiene
+            timer = 0;
+            Vector3 target = new Vector3(
+                camTransform.localPosition.x,
+                defaultYPos,
+                camTransform.localPosition.z
+            );
+            camTransform.localPosition = Vector3.Lerp(camTransform.localPosition, target, Time.deltaTime * bobSpeed);
+        }
     }
 }
