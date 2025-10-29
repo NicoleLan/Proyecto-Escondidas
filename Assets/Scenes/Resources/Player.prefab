@@ -248,6 +248,8 @@ MonoBehaviour:
   mouseSensitivity: 2
   jumpHeight: 3
   gravity: -9.81
+  bobSpeed: 10
+  bobAmount: 0.05
 --- !u!143 &7187751902530664279
 CharacterController:
   m_ObjectHideFlags: 0
