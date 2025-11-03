@@ -11,6 +11,7 @@ public class Player : MonoBehaviourPunCallbacks
     public float jumpHeight = 1.5f;
     public float gravity = -9.81f;
     bool corriendo;
+    private Animator animator;
 
     private CharacterController controller;
     private Transform camTransform;
@@ -27,6 +28,7 @@ public class Player : MonoBehaviourPunCallbacks
     {
         controller = GetComponent<CharacterController>();
         camTransform = GetComponentInChildren<Camera>().transform;
+        animator = GetComponentInChildren<Animator>();
         
 
         if (!photonView.IsMine)
@@ -90,11 +92,17 @@ public class Player : MonoBehaviourPunCallbacks
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
 
+
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
         move = move.normalized * speed;
         move.y = verticalVelocity;
 
         controller.Move(move * Time.deltaTime);
+
+                   
+        Vector3 horizontalMove = new Vector3(move.x, 0, move.z);
+        float speedValue = horizontalMove.magnitude;
+        animator.SetFloat("speed", speedValue);
     }
     void HeadBob()
     {

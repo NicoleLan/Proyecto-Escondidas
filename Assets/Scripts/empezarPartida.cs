@@ -16,8 +16,8 @@ public class empezarPartida : MonoBehaviourPun
     // Start is called before the first frame update
     void Start()
     {
-        empezado = 0;
-        ran = Random.Range(0, jugadores.Length - 1);
+        empezado = 0;   
+        
     }
 
     public Photon.Realtime.Player GetBuscador()
@@ -32,7 +32,6 @@ public class empezarPartida : MonoBehaviourPun
 
     void Update()
     {
-       
         empezar = Input.GetKeyDown(KeyCode.Period);
 
         if (empezar && PhotonNetwork.IsMasterClient && empezado == 0)
@@ -66,7 +65,15 @@ public class empezarPartida : MonoBehaviourPun
     public void SetBuscador(int nuevoIndice)
     {
         busca = nuevoIndice;
-   
+        playerControl control = GetComponent<playerControl>();
+
+       foreach (var player in FindObjectsOfType<Player>())
+       {
+                if (player.photonView.IsMine)
+                {
+                    control.ActualizarSkin();
+                }
+        }
     }
 
     [PunRPC]
@@ -94,8 +101,9 @@ public class empezarPartida : MonoBehaviourPun
             jugadoresVivos = PhotonNetwork.PlayerList.Length;
             photonView.RPC("CambiarPosicion", RpcTarget.All);
             empezado = 1;
-            busca= ran;
             Photon.Realtime.Player[] jugadores = PhotonNetwork.PlayerList;
+            ran = Random.Range(0, jugadores.Length - 1);
+            busca= ran;
             photonView.RPC("SetBuscador", RpcTarget.All, busca);
         }
 
@@ -103,4 +111,5 @@ public class empezarPartida : MonoBehaviourPun
     }
    
 }
-// 77 -400
+
+

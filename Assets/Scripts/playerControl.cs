@@ -16,24 +16,25 @@ public class playerControl : MonoBehaviourPun
         ActualizarSkin();
     }
 
-    public void ActualizarSkin()
-    {
+   public void ActualizarSkin()
+   {
         Photon.Realtime.Player buscador = partida.GetBuscador();
+        bool soyBuscador = PhotonNetwork.LocalPlayer == buscador;
+        if (photonView.IsMine)
+        {
+            buscadorSkin.SetActive(soyBuscador);
+            buscadoSkin.SetActive(!soyBuscador);
+        }
 
-        if (PhotonNetwork.LocalPlayer == buscador)
-        {
-            buscadorSkin.SetActive(true);
-            buscadoSkin.SetActive(false);
-        }
-        else
-        {
-            buscadorSkin.SetActive(false);
-            buscadoSkin.SetActive(true);
-        }
     }
-
-    public void Update()
+    public void ConvertirABuscador()
     {
-        ActualizarSkin();
+        buscadorSkin.SetActive(true);
+        buscadoSkin.SetActive(false);
+    }
+    public void ConvertirABuscado()
+    {
+        buscadorSkin.SetActive(false);
+        buscadoSkin.SetActive(true);
     }
 }
