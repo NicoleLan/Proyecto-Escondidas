@@ -32,6 +32,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: cortinas
+    second: {fileID: 2100000, guid: 91ff81aab0314dc41870a6a53a9c4802, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: ladrillos_
     second: {fileID: 2100000, guid: 45d8575e268c8094cad8f7417dc38c2c, type: 2}
   - first:
