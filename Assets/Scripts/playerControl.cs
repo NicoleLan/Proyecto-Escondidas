@@ -20,10 +20,21 @@ public class playerControl : MonoBehaviourPun
    {
         Photon.Realtime.Player buscador = partida.GetBuscador();
         bool soyBuscador = PhotonNetwork.LocalPlayer == buscador;
+        bool esBuscador = !GetComponent<PhotonView>().IsMine && GetComponent<PhotonView>().Owner == buscador;
         if (photonView.IsMine)
         {
             buscadorSkin.SetActive(soyBuscador);
             buscadoSkin.SetActive(!soyBuscador);
+        }
+
+        if(!photonView.IsMine && esBuscador){
+            buscadorSkin.SetActive(true);
+            buscadoSkin.SetActive(false);
+        }
+
+        if(!photonView.IsMine && !esBuscador){
+            buscadorSkin.SetActive(false);
+            buscadoSkin.SetActive(true);
         }
 
     }
