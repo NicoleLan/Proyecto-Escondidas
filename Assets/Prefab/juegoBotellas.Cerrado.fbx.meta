@@ -7,7 +7,22 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Blanco
+    second: {fileID: 2100000, guid: a702abe3f08f23b48916561586c37871, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marron
+    second: {fileID: 2100000, guid: 482b6f02b8fbc5243816f893af4812e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.005
+    second: {fileID: 2100000, guid: 426d7f7a904be9a459dbb493f118da67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo
     second: {fileID: 2100000, guid: 426d7f7a904be9a459dbb493f118da67, type: 2}
   materials:
     materialImportMode: 2
