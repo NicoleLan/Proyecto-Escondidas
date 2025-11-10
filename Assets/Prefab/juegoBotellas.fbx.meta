@@ -7,6 +7,26 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Amarillo
+    second: {fileID: 2100000, guid: 8c1ec2f47b908ed4da2de01b6fd59642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanco
+    second: {fileID: 2100000, guid: cb68f85e10eeef14c886e3e1c58ee3c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Colores
+    second: {fileID: 2100000, guid: de04901afbb5c754a8e5b68098c038cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Marron
+    second: {fileID: 2100000, guid: 482b6f02b8fbc5243816f893af4812e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material.001
     second: {fileID: 2100000, guid: 6563c4bc188a7a947ac4ccf401dde062, type: 2}
   - first:
@@ -29,6 +49,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Material.011
     second: {fileID: 2100000, guid: 098ac1b469101764ea767e07ae44a714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rojo
+    second: {fileID: 2100000, guid: 426d7f7a904be9a459dbb493f118da67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Verde
+    second: {fileID: 2100000, guid: bfe9c239facfce34ca5173536566fac2, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
