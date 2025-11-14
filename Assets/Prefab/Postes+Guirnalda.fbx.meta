@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a80aba6c22c89744fa75dc60279f7e4f
+guid: d335c0c662d232c4593f2c21220c0901
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -14,6 +14,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Cable Material
     second: {fileID: 2100000, guid: 865faa465b1909c4fa0cf13060d840c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: ebc2f7917ac7f734db959fcaf0a01b28, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
