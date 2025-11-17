@@ -2137,7 +2137,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 100
   m_Shadows:
-    m_Type: 1
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2168,7 +2168,7 @@ Light:
   m_RenderMode: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
@@ -11426,9 +11426,93 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 550197341222781494, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 550197341222781494, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 668770895247939449, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 668770895247939449, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282509873252488492, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282509873252488492, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1345018785084489614, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736858094201284476, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736858094201284476, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2252604438157317973, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2252604438157317973, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282368394080184731, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282368394080184731, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2483778803533034575, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2483778803533034575, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 2704690922743483525, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124584787968404446, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124584787968404446, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256405991528495267, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3256405991528495267, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932836840463846182, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932836840463846182, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 4432335663210318097, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11438,9 +11522,97 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4723202143866755826, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723202143866755826, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 4802895545034726331, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198568054286608902, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198568054286608902, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363041077864513025, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363041077864513025, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552118283237565263, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552118283237565263, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005856243827886148, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005856243827886148, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250856135973195821, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6250856135973195821, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314247739246851555, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6314247739246851555, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328309240825242974, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328309240825242974, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6614254739116566331, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6614254739116566331, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657608070848588549, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657608070848588549, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049374635633530249, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049374635633530249, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 7499935757657150177, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_Name
@@ -11453,6 +11625,54 @@ PrefabInstance:
     - target: {fileID: 7778347852207969440, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063609481816088883, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063609481816088883, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8453068585981252865, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8453068585981252865, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467227792222512017, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8467227792222512017, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8665446940549970506, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8665446940549970506, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731704820842929075, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731704820842929075, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009109576250766902, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009109576250766902, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
