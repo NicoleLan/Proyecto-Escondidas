@@ -6,6 +6,11 @@ using Photon.Pun;
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviourPunCallbacks
 {
+
+    public AudioSource pasosAudio;
+    public AudioClip caminarClip;
+    public AudioClip correrClip;  
+
     public float speed = 10f;
     public float mouseSensitivity = 2f;
     public float jumpHeight = 1.5f;
@@ -23,6 +28,8 @@ public class Player : MonoBehaviourPunCallbacks
     public float bobAmount = 0.2f;    // Qué tanto se mueve la cámara hacia arriba/abajo
     private float defaultYPos;
     private float timer = 0f;
+
+    private float speedValue;
 
     void Start()
     {
@@ -56,6 +63,35 @@ public class Player : MonoBehaviourPunCallbacks
             speed= 20f;
             bobSpeed = 8f;
         }
+
+        
+        
+        
+
+        if (corriendo)
+        {
+            if (!pasosAudio.isPlaying)
+            {
+                pasosAudio.clip = correrClip;
+                pasosAudio.pitch = Random.Range(0.9f, 1.05f);
+                pasosAudio.Play();
+            }
+        }
+        else if (!corriendo && speedValue > 0.1)
+        {
+            if (!pasosAudio.isPlaying)
+            {
+                pasosAudio.clip = caminarClip;
+                pasosAudio.pitch = Random.Range(0.9f, 1.05f);
+                pasosAudio.Play();
+            }
+        }
+        else
+        {
+            pasosAudio.Stop();
+        }
+        
+
         LookAround();
         Move();
         HeadBob();
@@ -101,7 +137,7 @@ public class Player : MonoBehaviourPunCallbacks
 
                    
         Vector3 horizontalMove = new Vector3(move.x, 0, move.z);
-        float speedValue = horizontalMove.magnitude;
+        speedValue = horizontalMove.magnitude;
         animator.SetFloat("speed", speedValue);
     }
     void HeadBob()
