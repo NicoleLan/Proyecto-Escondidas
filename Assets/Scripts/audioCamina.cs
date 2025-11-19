@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class audioCamina : MonoBehaviour
 {
+
+    public Animator animator;
+    public Player player;
     // Start is called before the first frame update
     void Start()
     {

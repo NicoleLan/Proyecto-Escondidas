@@ -248,6 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 997ecf3dabc8c4c4284a5febe1eede26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  empezarPartida: {fileID: -8783483481701107183}
   pasosAudio: {fileID: -5259190395462061874}
   caminarClip: {fileID: 8300000, guid: a028be27b3c28494592f11a6ae991669, type: 3}
   correrClip: {fileID: 8300000, guid: 2297347d09698b848ad3da652b4e9944, type: 3}
@@ -255,6 +256,8 @@ MonoBehaviour:
   mouseSensitivity: 2
   jumpHeight: 3
   gravity: -9.81
+  buscador1: {fileID: 5187343088822133614}
+  buscado1: {fileID: 7428227947774320603}
   bobSpeed: 10
   bobAmount: 0.05
 --- !u!143 &7187751902530664279
@@ -676,8 +679,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7428227947774320603}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: c384836656ef5f042af35e1bf72e6b43, type: 3}
+  m_Controller: {fileID: 9100000, guid: 2ca4d0aa1d9140940943789634d66716, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -6,6 +6,7 @@ using Photon.Pun;
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviourPunCallbacks
 {
+    [SerializeField] private empezarPartida empezarPartida;
 
     public AudioSource pasosAudio;
     public AudioClip caminarClip;
@@ -16,7 +17,11 @@ public class Player : MonoBehaviourPunCallbacks
     public float jumpHeight = 1.5f;
     public float gravity = -9.81f;
     bool corriendo;
+
+  
     private Animator animator;
+    public GameObject buscador1;
+    public GameObject buscado1;
 
     private CharacterController controller;
     private Transform camTransform;
@@ -35,8 +40,7 @@ public class Player : MonoBehaviourPunCallbacks
     {
         controller = GetComponent<CharacterController>();
         camTransform = GetComponentInChildren<Camera>().transform;
-        animator = GetComponentInChildren<Animator>();
-        
+        //animator = GetComponentInChildren<Animator>();       
 
         if (!photonView.IsMine)
         {
@@ -54,6 +58,10 @@ public class Player : MonoBehaviourPunCallbacks
 
     void Update()
     {
+
+        Photon.Realtime.Player[] jugadores = PhotonNetwork.PlayerList;
+        Photon.Realtime.Player buscador = empezarPartida.GetBuscador();
+
         corriendo = Input.GetKey(KeyCode.LeftShift);
         if (!photonView.IsMine) return;
         if(corriendo){
@@ -64,7 +72,14 @@ public class Player : MonoBehaviourPunCallbacks
             bobSpeed = 8f;
         }
 
-        
+        if (PhotonNetwork.LocalPlayer == buscador)
+        {
+            animator = buscador1.GetComponentInChildren<Animator>();
+        }
+        else
+        {
+             animator = buscado1.GetComponentInChildren<Animator>();
+        }
         
         
 
