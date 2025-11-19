@@ -248,6 +248,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 997ecf3dabc8c4c4284a5febe1eede26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pasosAudio: {fileID: 0}
+  caminarClip: {fileID: 0}
+  correrClip: {fileID: 0}
   speed: 10
   mouseSensitivity: 2
   jumpHeight: 3
