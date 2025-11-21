@@ -43,12 +43,17 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cartel
-    second: {fileID: 2800000, guid: 107bbd4d5107c3244be787ca2700a3ec, type: 3}
+    second: {fileID: 2800000, guid: b33d8c110cfea064ea0c2ac2cefa5adf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PisoTeatro
+    second: {fileID: 2800000, guid: 0c4b9bb4f35b93442b21bfd84b3d7660, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: castle_brick_07_diff_4k
-    second: {fileID: 2800000, guid: 15eceddf6258cb64084178b8a4f4fe32, type: 3}
+    second: {fileID: 2800000, guid: e2967b2dbcded8d4e9deb527ed3f107a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
@@ -58,7 +63,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: cortina
-    second: {fileID: 2800000, guid: a098776251fdd824999a29d653ca6094, type: 3}
+    second: {fileID: 2800000, guid: fe9eb527346ad964ebc0d671c12a09a4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule

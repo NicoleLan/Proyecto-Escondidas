@@ -254,7 +254,7 @@ MonoBehaviour:
   correrClip: {fileID: 8300000, guid: 2297347d09698b848ad3da652b4e9944, type: 3}
   speed: 10
   mouseSensitivity: 2
-  jumpHeight: 4
+  jumpHeight: 5
   gravity: -9.81
   buscador1: {fileID: 5187343088822133614}
   buscado1: {fileID: 7428227947774320603}
