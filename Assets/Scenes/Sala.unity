@@ -11467,13 +11467,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 906815337613055835, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365763143985164735, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1830382104690759884, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3155646905660665622, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3864970606470752191, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959313018579385819, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443711210798183967, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761700966154268198, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6386947835061058189, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6594363673958774519, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7307659520101212006, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7499935757657150177, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_Name
       value: Escenario 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7851010378839186872, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7910436125171314554, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Range
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8190688825211751029, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       propertyPath: m_LocalPosition.y
