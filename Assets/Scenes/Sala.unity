@@ -12315,6 +12315,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 218354673875611261, guid: 45cadfa7416d335448ea776d46e296fb, type: 3}
   m_PrefabInstance: {fileID: 2105245853}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2114484246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2811610670880901366, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+  m_PrefabInstance: {fileID: 5670975716993631050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2114484248
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114484246}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: bf28d3de177624b47bf6dae2f5b520c4, type: 3}
+  m_Controller: {fileID: 9100000, guid: ab7777030c8caff4da755fca886d4ef9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2127560050
 GameObject:
   m_ObjectHideFlags: 0
@@ -13137,6 +13163,10 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 9070864447430412035, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ab7777030c8caff4da755fca886d4ef9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2342096693585425836, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
@@ -13182,6 +13212,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8854354750690447567, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5670975716993631052}
+    - targetCorrespondingSourceObject: {fileID: 2811610670880901366, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2114484248}
   m_SourcePrefab: {fileID: 100100000, guid: 74994b1f5d1656342b25963bb59bba63, type: 3}
 --- !u!1 &5670975716993631051 stripped
 GameObject:
