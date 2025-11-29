@@ -7,8 +7,8 @@ using Photon.Realtime;
 public class Bulletcontrol : MonoBehaviourPun
 {
     Rigidbody bulletRb;
-    public float power = 40f;
-    public float lifetime = 4f;
+    public float power = 100f;
+    public float lifetime = 0.6f;
     private float time = 0f;
     public PlayerVida playervida;
     
