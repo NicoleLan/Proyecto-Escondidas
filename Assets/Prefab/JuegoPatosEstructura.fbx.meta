@@ -18,12 +18,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Madera mesa
-    second: {fileID: 2100000, guid: 03ad4fc0fd84eac4ab66031dd1bc3faa, type: 2}
+    second: {fileID: 2100000, guid: 2bd55aeb57de61c48b6afddea4c5520d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.007
-    second: {fileID: 2100000, guid: 91328421fd6f28847bfe8d18fd498537, type: 2}
+    second: {fileID: 2100000, guid: 2bd55aeb57de61c48b6afddea4c5520d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
