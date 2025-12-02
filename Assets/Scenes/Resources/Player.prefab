@@ -112,7 +112,6 @@ GameObject:
   - component: {fileID: -994003130336602102}
   - component: {fileID: -2926358972784268480}
   - component: {fileID: -8783483481701107183}
-  - component: {fileID: 3692862639095230830}
   - component: {fileID: 1915741506322911737}
   - component: {fileID: -5259190395462061874}
   m_Layer: 0
@@ -234,6 +233,8 @@ MonoBehaviour:
   ObservedComponents:
   - {fileID: -2678767067131818108}
   - {fileID: 1915741506322911737}
+  - {fileID: 6801511547575645593}
+  - {fileID: 8596546989102924393}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -379,27 +380,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   empezar: 0
---- !u!95 &3692862639095230830
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3553224790195981396}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d35c0e8a943905246afaacfc79327a90, type: 3}
-  m_Controller: {fileID: 9100000, guid: cbdecc53544022f44acdccac82b2be09, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &1915741506322911737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,6 +575,7 @@ GameObject:
   - component: {fileID: 3779727969791814552}
   - component: {fileID: 843545394461707913}
   - component: {fileID: 6801511547575645593}
+  - component: {fileID: 2889839443272224914}
   m_Layer: 0
   m_Name: buscador
   m_TagString: Untagged
@@ -660,6 +641,29 @@ MonoBehaviour:
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0
+--- !u!114 &2889839443272224914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5187343088822133614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 6801511547575645593}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &7428227947774320603
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +675,7 @@ GameObject:
   - component: {fileID: 7436742179370275639}
   - component: {fileID: 5393953418246065591}
   - component: {fileID: 8596546989102924393}
+  - component: {fileID: 6042309248165482844}
   m_Layer: 0
   m_Name: buscado
   m_TagString: Untagged
@@ -736,6 +741,29 @@ MonoBehaviour:
   m_SynchronizeLayers:
   - SynchronizeType: 2
     LayerIndex: 0
+--- !u!114 &6042309248165482844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7428227947774320603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 8596546989102924393}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &7492035619562766806
 GameObject:
   m_ObjectHideFlags: 0
