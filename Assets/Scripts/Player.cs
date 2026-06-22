@@ -14,8 +14,8 @@ public class Player : MonoBehaviourPunCallbacks
 
     public float speed = 10f;
     public float mouseSensitivity = 2f;
-    public float jumpHeight = 1.5f;
-    public float gravity = -9.81f;
+    public float jumpHeight = 0.8f;
+    public float gravity = -10f;
     bool corriendo;
 
   
@@ -30,7 +30,7 @@ public class Player : MonoBehaviourPunCallbacks
 
     [Header("Head Bobbing")]
     public float bobSpeed = 8f;       // Qué tan rápido se mueve la cámara
-    public float bobAmount = 0.2f;    // Qué tanto se mueve la cámara hacia arriba/abajo
+    public float bobAmount = 0.3f;    // Qué tanto se mueve la cámara hacia arriba/abajo
     private float defaultYPos;
     private float timer = 0f;
 
