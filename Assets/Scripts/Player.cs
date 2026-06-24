@@ -12,10 +12,10 @@ public class Player : MonoBehaviourPunCallbacks
     public AudioClip caminarClip;
     public AudioClip correrClip;  
 
-    public float speed = 10f;
+    public float speed = 15f;
     public float mouseSensitivity = 2f;
     public float jumpHeight = 0.8f;
-    public float gravity = -10f;
+    public float gravity = -15f;
     bool corriendo;
 
   

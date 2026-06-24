@@ -103,7 +103,7 @@ public class empezarPartida : MonoBehaviourPun
             empezado = 1;
             Photon.Realtime.Player[] jugadores = PhotonNetwork.PlayerList;
             ran = Random.Range(0, jugadores.Length - 1);
-            busca= ran;
+            busca= 0;
             photonView.RPC("SetBuscador", RpcTarget.All, busca);
         }
 

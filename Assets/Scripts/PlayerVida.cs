@@ -23,7 +23,7 @@ public class PlayerVida : MonoBehaviourPun
             transform.position = new Vector3(Random.Range(-77,-73), 5f, 350);
             partida.photonView.RPC("Muerte", RpcTarget.MasterClient);
             vida = 1;
-            
+            muerto = false;
         }
     }
 }
